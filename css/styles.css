@@ -1,0 +1,61 @@
+body {
+	font-size: 14px;
+	background-color: #FFAAAA;
+	color: #1F1F20;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#header-nav {
+	background-color: #550000;
+	border-radius: 0;
+	border: 0;
+	border-bottom: 4px solid #D46A6A;	
+}
+
+.navbar-brand {
+	padding-top: 10px;
+}
+
+.navbar-brand h1 { /* Company Name */
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.5em;
+	color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #FFAAAA;
+}
+
+#nav-list {
+	margin-top: 0px;
+}
+
+#nav-list a {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #801515;
+	font-size: 1.6em;
+}
+
+#nav-list a:hover {
+	background-color: #FFAAAA;
+	color: #1F1F20;
+}
+
+#content-1 {
+	font-size: 1.5em;
+	text-align: justify;	
+}
+
+#main-content section.row {
+	background-color: #ffffff;
+	padding: 15px 30px;
+}
+
+@media (max-width: 767px) {
+	.xs-margin {
+		margin-right: 40px;
+		margin-left: 40px;
+	}
+}
